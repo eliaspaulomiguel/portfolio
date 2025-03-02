@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+    color: #fff;
+}
+body {
+    background-color: #021024;
+}
+header {
+    width: 100%;
+}
+header > .box {
+    background-color: #021024;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+} 
+.box > .topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 70%;
+}
+.topo > .logo {
+    cursor: pointer;
+}
+.topo > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+}
+.topo > ul > li > a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    font-weight: 600;
+    border-radius:5px;
+    transition: .3s;
+}
+.topo > ul > li > a:hover {
+    background-color: #052659;
+    color: #fff;
+}
+.box > .pesq {
+    flex: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.shad {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    box-shadow: 0 0 10px #c1e8ff;
+    border-radius: 20px;
+}
+.shad > #pesquisa {
+    width: 80%;
+    height: 30px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+}
+.shad > .bx-search {
+    width: 20%;
+    font-size: 20px;
+    color: #fff;
+    background-color: #5483b3;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:  0  20px 20px 0;
+}
+.cursos {
+    background-color: #5483b3;
+    padding: 15px 10px;
+}
+.linguagens > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+}
+.linguagens > ul > li > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.content {
+    width: 100%;
+    height: 400px;
+    background-color: #052659;
+    display: flex;
+    padding: 20px;
+    color: #fff;
+}
+.content > .desc {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    gap: 10px;
+
+}
+.content > .desc-img {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content > .desc-img > .imagem1 {
+    object-fit: cover;
+    width: 80%;
+    height: 100%;
+}
+.desc > .desc-logo > i {
+    font-size: 25px;
+    margin-bottom: 10px;
+    background-color: #385777;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #7599bd;
+    transition: .3s;
+}
+.desc > .desc-logo > i:hover {
+    background-color: #7599bd;
+}
+.desc > .desc-desc > p {
+    text-align: justify;
+}
+.desc > .desc-desc > .btn {
+    background-color: #5483b3;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.desc > .desc-desc > .btn:hover {
+    background-color: #385777;
+}
+
+/* Main*/
+
+.todas-linguagens {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.todas-linguagens > h2 {
+    margin: 20px;
+}
+.todas-linguagens > .container1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.container1 > .drip {
+    background-color: #052659;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 350px;
+    box-shadow: 3px 4px 20px rgba(51, 51, 51, 0.479);
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    cursor: pointer;
+    transition: .4s;
+}
+.container1 > .drip:hover {
+    transform: scale(1.1);
+}
+.container1 > .drip > .html-img  {
+    width: 100%;
+    height: 50%;
+    
+}
+.html-img > img {
+    width: 100%;
+    height: 120%;
+    border-radius: 10px;
+}
+.html-img > p {
+    
+}
+.drip > .sobre-html {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.drip > .sobre-html > h1  {
+    font-size: 16px;
+}
+.drip > .sobre-html > p {
+    font-size: 12px;
+    text-align: justify;
+}
